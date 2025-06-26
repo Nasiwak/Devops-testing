@@ -1,0 +1,33 @@
+
+# Ignore environment files
+.vscode/
+.idea/
+venv/
+node_modules/
+msg/
+extra/
+nginx/
+nginx-1.26.3/
+
+# Ignore build files
+dist/
+build/
+
+# Ignore Python-related files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
+*.zip
+nasiwak_messenger/nasiwak_messenger/settings.py
+
+
+# Ignore database migrations
+# /migrations/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+New Nasiwak Messenger/
