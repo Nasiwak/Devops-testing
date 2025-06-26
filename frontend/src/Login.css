@@ -1,0 +1,55 @@
+
+  .card-container {
+    background-color: #fff;
+    border-radius: 1rem;
+    padding: 2.5rem;
+    max-width: 420px;
+    width: 100%;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.15);
+  }
+  
+  .auth-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .input-field {
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ced4da;
+    font-size: 1rem;
+  }
+  
+  .auth-button {
+    background-color: #5A57FF;
+    color: #fff;
+    padding: 8px;
+    width: 100%;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+  
+  .auth-button:hover {
+    background-color: #4744d3;
+  }
+  
+  .auth-link {
+    color: #5A57FF;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  
+  .auth-link:hover {
+    text-decoration: underline;
+  }
+  
+  .alert {
+    font-size: 0.95rem;
+  }
+  

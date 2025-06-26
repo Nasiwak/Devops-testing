@@ -1,0 +1,20 @@
+{
+    "language": "言語",
+    "edit_profile": "プロフィールを編集",
+    "user_details": "ユーザー詳細",
+    "name": "名前",
+    "email": "メール",
+    "number": "番号",
+    "edit": "編集",
+    "save": "保存",
+    "cancel": "キャンセル",
+    "welcome_message": "ナシワクメッセンジャーへようこそ",
+    "start_conversation": "ユーザーまたはグループを選択して会話を開始してください。",
+    "nasiwak_messenger": "ナシワクメッセンジャ",
+    "chat": "チャット",
+    "notification": "通知",
+    "tasks": "タスク",
+    "notes": "ノート",
+    "Search People": "人を検索",
+    "My Space": "マイスペース"
+}

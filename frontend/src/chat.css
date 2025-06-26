@@ -1,0 +1,117 @@
+/* Chat Page Layout */
+.chat-container {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+/* Left Sidebar */
+.chat-sidebar {
+    width: 240px;
+    background: #333;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+/* User List */
+.chat-sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.chat-user {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #444;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: background 0.2s;
+}
+
+.chat-user:hover {
+    background: #444;
+}
+
+/* Chat Window */
+.chat-window {
+    margin-left: 260px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 100vh;
+    overflow: hidden;
+    transition: margin-right 0.3s ease;
+}
+
+/* Chat Header */
+.chat-header {
+    background: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    position: relative;
+}
+
+/* Messages Area */
+.chat-messages {
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Individual Messages */
+.chat-message {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    max-width: 60%;
+    word-wrap: break-word;
+}
+
+/* Sent & Received Messages */
+.chat-message.sent {
+    background-color: #dcf8c6;
+    align-self: flex-end;
+}
+
+.chat-message.received {
+    background-color: #f1f0f0;
+    align-self: flex-start;
+}
+
+/* Input Area */
+.chat-input-container {
+    display: flex;
+    padding: 10px;
+    background: white;
+    border-top: 1px solid #ccc;
+}
+
+.chat-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.chat-send-button {
+    padding: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    background-color: #0078ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}

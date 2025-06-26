@@ -1,0 +1,68 @@
+/* .Tab-Item {
+    color: black;
+    background: #f8f9fa;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.Tab-Item.active-Tab {
+    color: white;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    border-radius: 15px;
+}
+
+.Tab-Item:hover {
+    background: rgba(0, 0, 0, 0.05);
+} */
+
+
+.Tab-Item {
+    color: black;
+    background: #f8f9fa;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.Tab-Item.active-Tab {
+    color: white;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    
+    border-radius: 15px;
+}
+.item-icon{
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white !important;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.Tab-Item:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.title {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.user-btn {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+}
+
+
+

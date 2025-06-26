@@ -1,0 +1,20 @@
+{
+  "language": "Language",
+  "edit_profile": "Edit Profile",
+  "user_details": "User Details",
+  "name": "Name",
+  "email": "Email",
+  "number": "Number",
+  "edit": "Edit",
+  "save": "Save",
+  "cancel": "Cancel",
+  "welcome_message": "Welcome to Nasiwak Messenger",
+  "start_conversation": "Start a conversation by selecting a user or group.",
+  "nasiwak_messenger": "Nasiwak Messenger",
+  "chat": "Chat",
+  "notification": "Notification",
+  "tasks": "Tasks",
+  "notes": "Notes",
+  "Search People": "Search People",
+  "My Space": "My Space"
+}

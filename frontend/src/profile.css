@@ -1,0 +1,29 @@
+.img-con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5cm;
+    width: 5cm;
+    background: linear-gradient(135deg, #6a11cb, #2575fc); 
+    border-radius: 50%; 
+    color: white; 
+    font-weight: bold;
+}
+.img-con h1{
+    font-size: 6rem;
+}
+
+.profile-icon {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+.profile-btn{
+    background: linear-gradient(135deg, #6a11cb, #2575fc); 
+    color: white !important;
+}  
+.profile-btn:hover{
+    color: white;
+}
+  
